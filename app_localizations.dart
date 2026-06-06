@@ -108,6 +108,8 @@ abstract class AppLocalizations {
     Locale('de'),
     Locale('en'),
     Locale('es'),
+    Locale('es', '419'),
+    Locale('es', 'ES'),
     Locale('fr'),
     Locale('hi'),
     Locale('id'),
@@ -116,6 +118,8 @@ abstract class AppLocalizations {
     Locale('ko'),
     Locale('nl'),
     Locale('pt'),
+    Locale('pt', 'BR'),
+    Locale('pt', 'PT'),
     Locale('ru'),
     Locale('vi'),
     Locale('zh'),
@@ -1470,6 +1474,20 @@ AppLocalizations lookupAppLocalizations(Locale locale) {
 
   // Lookup logic when language+country codes are specified.
   switch (locale.languageCode) {
+    case 'es': {
+  switch (locale.countryCode) {
+    case '419': return AppLocalizationsEs419();
+case 'ES': return AppLocalizationsEsEs();
+   }
+  break;
+   }
+    case 'pt': {
+  switch (locale.countryCode) {
+    case 'BR': return AppLocalizationsPtBr();
+case 'PT': return AppLocalizationsPtPt();
+   }
+  break;
+   }
     case 'zh': {
   switch (locale.countryCode) {
     case 'CN': return AppLocalizationsZhCn();

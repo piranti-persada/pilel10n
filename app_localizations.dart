@@ -752,6 +752,18 @@ abstract class AppLocalizations {
   /// **'Account information'**
   String get accountInformation;
 
+  /// No description provided for @securityTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Security'**
+  String get securityTitle;
+
+  /// No description provided for @preferencesTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Preferences'**
+  String get preferencesTitle;
+
   /// No description provided for @profilePicture.
   ///
   /// In en, this message translates to:
@@ -1453,6 +1465,180 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Resend Code'**
   String get otpResendCode;
+
+  /// No description provided for @donateSaweria.
+  ///
+  /// In en, this message translates to:
+  /// **'Donate us via Saweria'**
+  String get donateSaweria;
+
+  /// No description provided for @saweriaRegionWarning.
+  ///
+  /// In en, this message translates to:
+  /// **'Donating to us via Saweria is only available on Indonesia and the Philippines.'**
+  String get saweriaRegionWarning;
+
+  /// No description provided for @proceed.
+  ///
+  /// In en, this message translates to:
+  /// **'Proceed'**
+  String get proceed;
+
+  /// No description provided for @website.
+  ///
+  /// In en, this message translates to:
+  /// **'Pile web'**
+  String get website;
+
+  /// No description provided for @themeScreenTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Theme'**
+  String get themeScreenTitle;
+
+  /// No description provided for @systemDefault.
+  ///
+  /// In en, this message translates to:
+  /// **'System default'**
+  String get systemDefault;
+
+  /// No description provided for @lightTheme.
+  ///
+  /// In en, this message translates to:
+  /// **'Light'**
+  String get lightTheme;
+
+  /// No description provided for @darkTheme.
+  ///
+  /// In en, this message translates to:
+  /// **'Dark'**
+  String get darkTheme;
+
+  /// No description provided for @advancedSettingsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Advanced settings'**
+  String get advancedSettingsTitle;
+
+  /// No description provided for @accountPreferencesTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Account & preferences'**
+  String get accountPreferencesTitle;
+
+  /// No description provided for @socialsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Socials'**
+  String get socialsTitle;
+
+  /// No description provided for @confirmDeletionTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirm Deletion'**
+  String get confirmDeletionTitle;
+
+  /// No description provided for @confirmDeletionPrompt.
+  ///
+  /// In en, this message translates to:
+  /// **'Please type your username to confirm deletion.'**
+  String get confirmDeletionPrompt;
+
+  /// No description provided for @confirmButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirm'**
+  String get confirmButton;
+
+  /// No description provided for @usernameMismatch.
+  ///
+  /// In en, this message translates to:
+  /// **'Username did not match. Deletion cancelled.'**
+  String get usernameMismatch;
+
+  /// No description provided for @exportSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'Exported successfully'**
+  String get exportSuccess;
+
+  /// No description provided for @policiesTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Policies'**
+  String get policiesTitle;
+
+  /// No description provided for @reminderScheduled.
+  ///
+  /// In en, this message translates to:
+  /// **'Reminder scheduled successfully.'**
+  String get reminderScheduled;
+
+  /// No description provided for @reminderFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Link added, but reminder failed: {error}'**
+  String reminderFailed(String error);
+
+  /// No description provided for @addLinkFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to add link: {error}'**
+  String addLinkFailed(String error);
+
+  /// No description provided for @errorLoadingDeleted.
+  ///
+  /// In en, this message translates to:
+  /// **'Error loading deleted links: {error}'**
+  String errorLoadingDeleted(String error);
+
+  /// No description provided for @errorLoadingDocument.
+  ///
+  /// In en, this message translates to:
+  /// **'Error loading document: {error}'**
+  String errorLoadingDocument(String error);
+
+  /// No description provided for @selectFolder.
+  ///
+  /// In en, this message translates to:
+  /// **'Select {folderName}'**
+  String selectFolder(String folderName);
+
+  /// No description provided for @thisFolder.
+  ///
+  /// In en, this message translates to:
+  /// **'this folder'**
+  String get thisFolder;
+
+  /// No description provided for @whatsNewSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'ReadItLater is now Pile - same app, fresh identity.'**
+  String get whatsNewSubtitle;
+
+  /// No description provided for @whatsNewHeader.
+  ///
+  /// In en, this message translates to:
+  /// **'What\'s new:'**
+  String get whatsNewHeader;
+
+  /// No description provided for @whatsNewPoint1.
+  ///
+  /// In en, this message translates to:
+  /// **'- New name, new icon, same you'**
+  String get whatsNewPoint1;
+
+  /// No description provided for @whatsNewPoint2.
+  ///
+  /// In en, this message translates to:
+  /// **'- Bug fixes and improvements'**
+  String get whatsNewPoint2;
+
+  /// No description provided for @whatsNewFooter.
+  ///
+  /// In en, this message translates to:
+  /// **'Thanks for being here from the start.'**
+  String get whatsNewFooter;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

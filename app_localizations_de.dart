@@ -343,6 +343,12 @@ class AppLocalizationsDe extends AppLocalizations {
   String get accountInformation => 'Kontoinformationen';
 
   @override
+  String get securityTitle => 'Sicherheit';
+
+  @override
+  String get preferencesTitle => 'Einstellungen';
+
+  @override
   String get profilePicture => 'Profilbild';
 
   @override
@@ -704,4 +710,101 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get otpResendCode => 'Code erneut senden';
+
+  @override
+  String get donateSaweria => 'Spenden Sie uns über Saweria';
+
+  @override
+  String get saweriaRegionWarning => 'Spenden über Saweria ist nur in Indonesien und den Philippinen verfügbar.';
+
+  @override
+  String get proceed => 'Fortfahren';
+
+  @override
+  String get website => 'Pile Web';
+
+  @override
+  String get themeScreenTitle => 'Design';
+
+  @override
+  String get systemDefault => 'Systemstandard';
+
+  @override
+  String get lightTheme => 'Hell';
+
+  @override
+  String get darkTheme => 'Dunkel';
+
+  @override
+  String get advancedSettingsTitle => 'Erweiterte Einstellungen';
+
+  @override
+  String get accountPreferencesTitle => 'Konto & Einstellungen';
+
+  @override
+  String get socialsTitle => 'Soziales';
+
+  @override
+  String get confirmDeletionTitle => 'Löschen bestätigen';
+
+  @override
+  String get confirmDeletionPrompt => 'Bitte geben Sie Ihren Benutzernamen ein, um die Löschung zu bestätigen.';
+
+  @override
+  String get confirmButton => 'Bestätigen';
+
+  @override
+  String get usernameMismatch => 'Benutzername stimmt nicht überein. Löschung abgebrochen.';
+
+  @override
+  String get exportSuccess => 'Erfolgreich exportiert';
+
+  @override
+  String get policiesTitle => 'Richtlinien';
+
+  @override
+  String get reminderScheduled => 'Erinnerung erfolgreich geplant.';
+
+  @override
+  String reminderFailed(String error) {
+    return 'Link hinzugefügt, aber Erinnerung fehlgeschlagen: $error';
+  }
+
+  @override
+  String addLinkFailed(String error) {
+    return 'Link konnte nicht hinzugefügt werden: $error';
+  }
+
+  @override
+  String errorLoadingDeleted(String error) {
+    return 'Fehler beim Laden gelöschter Links: $error';
+  }
+
+  @override
+  String errorLoadingDocument(String error) {
+    return 'Fehler beim Laden des Dokuments: $error';
+  }
+
+  @override
+  String selectFolder(String folderName) {
+    return 'Wähle $folderName';
+  }
+
+  @override
+  String get thisFolder => 'Diesen Ordner';
+
+  @override
+  String get whatsNewSubtitle => 'ReadItLater ist jetzt Pile - gleiche App, neue Identität.';
+
+  @override
+  String get whatsNewHeader => 'Was ist neu:';
+
+  @override
+  String get whatsNewPoint1 => '- Neuer Name, neues Symbol, gleiches Erlebnis';
+
+  @override
+  String get whatsNewPoint2 => '- Fehlerbehebungen und Verbesserungen';
+
+  @override
+  String get whatsNewFooter => 'Danke, dass du von Anfang an dabei bist.';
 }

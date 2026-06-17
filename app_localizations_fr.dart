@@ -343,6 +343,12 @@ class AppLocalizationsFr extends AppLocalizations {
   String get accountInformation => 'Informations du compte';
 
   @override
+  String get securityTitle => 'Sécurité';
+
+  @override
+  String get preferencesTitle => 'Préférences';
+
+  @override
   String get profilePicture => 'Photo de profil';
 
   @override
@@ -704,4 +710,101 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get otpResendCode => 'Renvoyer le code';
+
+  @override
+  String get donateSaweria => 'Faites-nous un don via Saweria';
+
+  @override
+  String get saweriaRegionWarning => 'Faire un don via Saweria n\'est disponible qu\'en Indonésie et aux Philippines.';
+
+  @override
+  String get proceed => 'Procéder';
+
+  @override
+  String get website => 'Pile web';
+
+  @override
+  String get themeScreenTitle => 'Thème';
+
+  @override
+  String get systemDefault => 'Système par défaut';
+
+  @override
+  String get lightTheme => 'Clair';
+
+  @override
+  String get darkTheme => 'Sombre';
+
+  @override
+  String get advancedSettingsTitle => 'Paramètres avancés';
+
+  @override
+  String get accountPreferencesTitle => 'Compte & préférences';
+
+  @override
+  String get socialsTitle => 'Réseaux sociaux';
+
+  @override
+  String get confirmDeletionTitle => 'Confirmer la suppression';
+
+  @override
+  String get confirmDeletionPrompt => 'Veuillez saisir votre nom d\'utilisateur pour confirmer.';
+
+  @override
+  String get confirmButton => 'Confirmer';
+
+  @override
+  String get usernameMismatch => 'Le nom d\'utilisateur ne correspond pas. Suppression annulée.';
+
+  @override
+  String get exportSuccess => 'Exportation réussie';
+
+  @override
+  String get policiesTitle => 'Politiques';
+
+  @override
+  String get reminderScheduled => 'Rappel programmé avec succès.';
+
+  @override
+  String reminderFailed(String error) {
+    return 'Lien ajouté, mais échec du rappel : $error';
+  }
+
+  @override
+  String addLinkFailed(String error) {
+    return 'Échec de l\'ajout du lien : $error';
+  }
+
+  @override
+  String errorLoadingDeleted(String error) {
+    return 'Erreur de chargement des liens supprimés : $error';
+  }
+
+  @override
+  String errorLoadingDocument(String error) {
+    return 'Erreur de chargement du document : $error';
+  }
+
+  @override
+  String selectFolder(String folderName) {
+    return 'Sélectionnez $folderName';
+  }
+
+  @override
+  String get thisFolder => 'ce dossier';
+
+  @override
+  String get whatsNewSubtitle => 'ReadItLater est désormais Pile - même application, nouvelle identité.';
+
+  @override
+  String get whatsNewHeader => 'Quoi de neuf :';
+
+  @override
+  String get whatsNewPoint1 => '- Nouveau nom, nouvelle icône';
+
+  @override
+  String get whatsNewPoint2 => '- Corrections de bugs et améliorations';
+
+  @override
+  String get whatsNewFooter => 'Merci d\'être avec nous depuis le début.';
 }

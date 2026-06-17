@@ -180,6 +180,8 @@
     "commentsLabel": "Comments (optional)",
     "accountSettings": "Account settings",
     "accountInformation": "Account information",
+    "securityTitle": "Security",
+    "preferencesTitle": "Preferences",
     "profilePicture": "Profile Picture",
     "tapToChange": "Tap to change",
     "changeProfilePicture": "Change profile picture",
@@ -341,5 +343,69 @@
         }
     },
     "otpResendAvailable": "You can resend the code now",
-    "otpResendCode": "Resend Code"
+    "otpResendCode": "Resend Code",
+    "donateSaweria": "Donate us via Saweria",
+    "saweriaRegionWarning": "Donating to us via Saweria is only available on Indonesia and the Philippines.",
+    "proceed": "Proceed",
+    "website": "Pile web",
+    "themeScreenTitle": "Theme",
+    "systemDefault": "System default",
+    "lightTheme": "Light",
+    "darkTheme": "Dark",
+    "advancedSettingsTitle": "Advanced settings",
+    "accountPreferencesTitle": "Account & preferences",
+    "socialsTitle": "Socials",
+    "confirmDeletionTitle": "Confirm Deletion",
+    "confirmDeletionPrompt": "Please type your username to confirm deletion.",
+    "confirmButton": "Confirm",
+    "usernameMismatch": "Username did not match. Deletion cancelled.",
+    "exportSuccess": "Exported successfully",
+    "policiesTitle": "Policies",
+    "reminderScheduled": "Reminder scheduled successfully.",
+    "reminderFailed": "Link added, but reminder failed: {error}",
+    "@reminderFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "addLinkFailed": "Failed to add link: {error}",
+    "@addLinkFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "errorLoadingDeleted": "Error loading deleted links: {error}",
+    "@errorLoadingDeleted": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "errorLoadingDocument": "Error loading document: {error}",
+    "@errorLoadingDocument": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "selectFolder": "Select {folderName}",
+    "@selectFolder": {
+        "placeholders": {
+            "folderName": {
+                "type": "String"
+            }
+        }
+    },
+    "thisFolder": "this folder",
+    "whatsNewSubtitle": "ReadItLater is now Pile - same app, fresh identity.",
+    "whatsNewHeader": "What's new:",
+    "whatsNewPoint1": "- New name, new icon, same you",
+    "whatsNewPoint2": "- Bug fixes and improvements",
+    "whatsNewFooter": "Thanks for being here from the start."
 }

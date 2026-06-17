@@ -343,6 +343,12 @@ class AppLocalizationsNl extends AppLocalizations {
   String get accountInformation => 'Accountinformatie';
 
   @override
+  String get securityTitle => 'Beveiliging';
+
+  @override
+  String get preferencesTitle => 'Voorkeuren';
+
+  @override
   String get profilePicture => 'Profielfoto';
 
   @override
@@ -704,4 +710,101 @@ class AppLocalizationsNl extends AppLocalizations {
 
   @override
   String get otpResendCode => 'Code opnieuw verzenden';
+
+  @override
+  String get donateSaweria => 'Doneer aan ons via Saweria';
+
+  @override
+  String get saweriaRegionWarning => 'Doneren aan ons via Saweria is alleen beschikbaar in Indonesië en de Filipijnen.';
+
+  @override
+  String get proceed => 'Doorgaan';
+
+  @override
+  String get website => 'Pile web';
+
+  @override
+  String get themeScreenTitle => 'Thema';
+
+  @override
+  String get systemDefault => 'Systeemstandaard';
+
+  @override
+  String get lightTheme => 'Licht';
+
+  @override
+  String get darkTheme => 'Donker';
+
+  @override
+  String get advancedSettingsTitle => 'Geavanceerde instellingen';
+
+  @override
+  String get accountPreferencesTitle => 'Account & voorkeuren';
+
+  @override
+  String get socialsTitle => 'Sociaal';
+
+  @override
+  String get confirmDeletionTitle => 'Verwijdering bevestigen';
+
+  @override
+  String get confirmDeletionPrompt => 'Typ uw gebruikersnaam om de verwijdering te bevestigen.';
+
+  @override
+  String get confirmButton => 'Bevestigen';
+
+  @override
+  String get usernameMismatch => 'Gebruikersnaam komt niet overeen. Verwijdering geannuleerd.';
+
+  @override
+  String get exportSuccess => 'Succesvol geëxporteerd';
+
+  @override
+  String get policiesTitle => 'Beleid';
+
+  @override
+  String get reminderScheduled => 'Herinnering succesvol gepland.';
+
+  @override
+  String reminderFailed(String error) {
+    return 'Link toegevoegd, maar herinnering mislukt: $error';
+  }
+
+  @override
+  String addLinkFailed(String error) {
+    return 'Toevoegen van link mislukt: $error';
+  }
+
+  @override
+  String errorLoadingDeleted(String error) {
+    return 'Fout bij laden van verwijderde links: $error';
+  }
+
+  @override
+  String errorLoadingDocument(String error) {
+    return 'Fout bij laden van document: $error';
+  }
+
+  @override
+  String selectFolder(String folderName) {
+    return 'Selecteer $folderName';
+  }
+
+  @override
+  String get thisFolder => 'deze map';
+
+  @override
+  String get whatsNewSubtitle => 'ReadItLater is nu Pile - dezelfde app, nieuwe identiteit.';
+
+  @override
+  String get whatsNewHeader => 'Wat is nieuw:';
+
+  @override
+  String get whatsNewPoint1 => '- Nieuwe naam, nieuw pictogram';
+
+  @override
+  String get whatsNewPoint2 => '- Bugfixes en verbeteringen';
+
+  @override
+  String get whatsNewFooter => 'Bedankt dat je er vanaf het begin bij bent.';
 }

@@ -343,6 +343,12 @@ class AppLocalizationsHi extends AppLocalizations {
   String get accountInformation => 'खाता जानकारी';
 
   @override
+  String get securityTitle => 'सुरक्षा';
+
+  @override
+  String get preferencesTitle => 'प्राथमिकताएं';
+
+  @override
   String get profilePicture => 'प्रोफ़ाइल चित्र';
 
   @override
@@ -704,4 +710,101 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get otpResendCode => 'कोड पुनः भेजें';
+
+  @override
+  String get donateSaweria => 'सवेरिया के माध्यम से हमें दान करें';
+
+  @override
+  String get saweriaRegionWarning => 'सवेरिया के माध्यम से हमें दान करना केवल इंडोनेशिया और फिलीपींस में उपलब्ध है।';
+
+  @override
+  String get proceed => 'आगे बढ़ें';
+
+  @override
+  String get website => 'Pile वेब';
+
+  @override
+  String get themeScreenTitle => 'विषय';
+
+  @override
+  String get systemDefault => 'सिस्टम डिफ़ॉल्ट';
+
+  @override
+  String get lightTheme => 'रोशनी';
+
+  @override
+  String get darkTheme => 'अंधेरा';
+
+  @override
+  String get advancedSettingsTitle => 'उन्नत सेटिंग्स';
+
+  @override
+  String get accountPreferencesTitle => 'खाता और प्राथमिकताएं';
+
+  @override
+  String get socialsTitle => 'सामाजिक';
+
+  @override
+  String get confirmDeletionTitle => 'हटाने की पुष्टि करें';
+
+  @override
+  String get confirmDeletionPrompt => 'कृपया हटाने की पुष्टि करने के लिए अपना उपयोगकर्ता नाम टाइप करें।';
+
+  @override
+  String get confirmButton => 'पुष्टि करें';
+
+  @override
+  String get usernameMismatch => 'उपयोगकर्ता नाम मेल नहीं खाता। हटाना रद्द किया गया।';
+
+  @override
+  String get exportSuccess => 'सफलतापूर्वक निर्यात किया गया';
+
+  @override
+  String get policiesTitle => 'नीतियाँ';
+
+  @override
+  String get reminderScheduled => 'अनुस्मारक सफलतापूर्वक निर्धारित।';
+
+  @override
+  String reminderFailed(String error) {
+    return 'लिंक जोड़ा गया, लेकिन अनुस्मारक विफल: $error';
+  }
+
+  @override
+  String addLinkFailed(String error) {
+    return 'लिंक जोड़ने में विफल: $error';
+  }
+
+  @override
+  String errorLoadingDeleted(String error) {
+    return 'हटाए गए लिंक लोड करने में त्रुटि: $error';
+  }
+
+  @override
+  String errorLoadingDocument(String error) {
+    return 'दस्तावेज़ लोड करने में त्रुटि: $error';
+  }
+
+  @override
+  String selectFolder(String folderName) {
+    return '$folderName चुनें';
+  }
+
+  @override
+  String get thisFolder => 'यह फ़ोल्डर';
+
+  @override
+  String get whatsNewSubtitle => 'ReadItLater अब Pile है - एक ही ऐप, नई पहचान।';
+
+  @override
+  String get whatsNewHeader => 'नया क्या है:';
+
+  @override
+  String get whatsNewPoint1 => '- नया नाम, नया आइकन, वही आप';
+
+  @override
+  String get whatsNewPoint2 => '- बग फिक्स और सुधार';
+
+  @override
+  String get whatsNewFooter => 'शुरू से यहाँ रहने के लिए धन्यवाद।';
 }

@@ -343,6 +343,12 @@ class AppLocalizationsKo extends AppLocalizations {
   String get accountInformation => '계정 정보';
 
   @override
+  String get securityTitle => '보안';
+
+  @override
+  String get preferencesTitle => '기본 설정';
+
+  @override
   String get profilePicture => '프로필 사진';
 
   @override
@@ -704,4 +710,101 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get otpResendCode => '코드 재전송';
+
+  @override
+  String get donateSaweria => 'Saweria를 통해 후원하기';
+
+  @override
+  String get saweriaRegionWarning => 'Saweria를 통한 후원은 인도네시아와 필리핀에서만 가능합니다.';
+
+  @override
+  String get proceed => '진행';
+
+  @override
+  String get website => 'Pile 웹';
+
+  @override
+  String get themeScreenTitle => '테마';
+
+  @override
+  String get systemDefault => '시스템 기본값';
+
+  @override
+  String get lightTheme => '라이트';
+
+  @override
+  String get darkTheme => '다크';
+
+  @override
+  String get advancedSettingsTitle => '고급 설정';
+
+  @override
+  String get accountPreferencesTitle => '계정 및 기본 설정';
+
+  @override
+  String get socialsTitle => '소셜';
+
+  @override
+  String get confirmDeletionTitle => '삭제 확인';
+
+  @override
+  String get confirmDeletionPrompt => '삭제를 확인하려면 사용자 이름을 입력하세요.';
+
+  @override
+  String get confirmButton => '확인';
+
+  @override
+  String get usernameMismatch => '사용자 이름이 일치하지 않습니다. 삭제가 취소되었습니다.';
+
+  @override
+  String get exportSuccess => '성공적으로 내보냈습니다';
+
+  @override
+  String get policiesTitle => '정책';
+
+  @override
+  String get reminderScheduled => '알림이 성공적으로 예약되었습니다.';
+
+  @override
+  String reminderFailed(String error) {
+    return '링크가 추가되었지만 알림 실패: $error';
+  }
+
+  @override
+  String addLinkFailed(String error) {
+    return '링크 추가 실패: $error';
+  }
+
+  @override
+  String errorLoadingDeleted(String error) {
+    return '삭제된 링크를 불러오는 중 오류 발생: $error';
+  }
+
+  @override
+  String errorLoadingDocument(String error) {
+    return '문서를 불러오는 중 오류 발생: $error';
+  }
+
+  @override
+  String selectFolder(String folderName) {
+    return '$folderName 선택';
+  }
+
+  @override
+  String get thisFolder => '이 폴더';
+
+  @override
+  String get whatsNewSubtitle => 'ReadItLater가 이제 Pile이 되었습니다 - 같은 앱, 새로운 정체성.';
+
+  @override
+  String get whatsNewHeader => '새로운 기능:';
+
+  @override
+  String get whatsNewPoint1 => '- 새로운 이름, 새로운 아이콘';
+
+  @override
+  String get whatsNewPoint2 => '- 버그 수정 및 개선';
+
+  @override
+  String get whatsNewFooter => '처음부터 함께해주셔서 감사합니다.';
 }

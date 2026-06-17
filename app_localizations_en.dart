@@ -343,6 +343,12 @@ class AppLocalizationsEn extends AppLocalizations {
   String get accountInformation => 'Account information';
 
   @override
+  String get securityTitle => 'Security';
+
+  @override
+  String get preferencesTitle => 'Preferences';
+
+  @override
   String get profilePicture => 'Profile Picture';
 
   @override
@@ -704,4 +710,101 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get otpResendCode => 'Resend Code';
+
+  @override
+  String get donateSaweria => 'Donate us via Saweria';
+
+  @override
+  String get saweriaRegionWarning => 'Donating to us via Saweria is only available on Indonesia and the Philippines.';
+
+  @override
+  String get proceed => 'Proceed';
+
+  @override
+  String get website => 'Pile web';
+
+  @override
+  String get themeScreenTitle => 'Theme';
+
+  @override
+  String get systemDefault => 'System default';
+
+  @override
+  String get lightTheme => 'Light';
+
+  @override
+  String get darkTheme => 'Dark';
+
+  @override
+  String get advancedSettingsTitle => 'Advanced settings';
+
+  @override
+  String get accountPreferencesTitle => 'Account & preferences';
+
+  @override
+  String get socialsTitle => 'Socials';
+
+  @override
+  String get confirmDeletionTitle => 'Confirm Deletion';
+
+  @override
+  String get confirmDeletionPrompt => 'Please type your username to confirm deletion.';
+
+  @override
+  String get confirmButton => 'Confirm';
+
+  @override
+  String get usernameMismatch => 'Username did not match. Deletion cancelled.';
+
+  @override
+  String get exportSuccess => 'Exported successfully';
+
+  @override
+  String get policiesTitle => 'Policies';
+
+  @override
+  String get reminderScheduled => 'Reminder scheduled successfully.';
+
+  @override
+  String reminderFailed(String error) {
+    return 'Link added, but reminder failed: $error';
+  }
+
+  @override
+  String addLinkFailed(String error) {
+    return 'Failed to add link: $error';
+  }
+
+  @override
+  String errorLoadingDeleted(String error) {
+    return 'Error loading deleted links: $error';
+  }
+
+  @override
+  String errorLoadingDocument(String error) {
+    return 'Error loading document: $error';
+  }
+
+  @override
+  String selectFolder(String folderName) {
+    return 'Select $folderName';
+  }
+
+  @override
+  String get thisFolder => 'this folder';
+
+  @override
+  String get whatsNewSubtitle => 'ReadItLater is now Pile - same app, fresh identity.';
+
+  @override
+  String get whatsNewHeader => 'What\'s new:';
+
+  @override
+  String get whatsNewPoint1 => '- New name, new icon, same you';
+
+  @override
+  String get whatsNewPoint2 => '- Bug fixes and improvements';
+
+  @override
+  String get whatsNewFooter => 'Thanks for being here from the start.';
 }

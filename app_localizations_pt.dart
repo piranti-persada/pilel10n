@@ -343,6 +343,12 @@ class AppLocalizationsPt extends AppLocalizations {
   String get accountInformation => 'Informações da conta';
 
   @override
+  String get securityTitle => 'Segurança';
+
+  @override
+  String get preferencesTitle => 'Preferências';
+
+  @override
   String get profilePicture => 'Foto do perfil';
 
   @override
@@ -704,6 +710,103 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get otpResendCode => 'Reenviar código';
+
+  @override
+  String get donateSaweria => 'Doe para nós via Saweria';
+
+  @override
+  String get saweriaRegionWarning => 'Doar para nós via Saweria só está disponível na Indonésia e nas Filipinas.';
+
+  @override
+  String get proceed => 'Prosseguir';
+
+  @override
+  String get website => 'Pile web';
+
+  @override
+  String get themeScreenTitle => 'Tema';
+
+  @override
+  String get systemDefault => 'Padrão do sistema';
+
+  @override
+  String get lightTheme => 'Claro';
+
+  @override
+  String get darkTheme => 'Escuro';
+
+  @override
+  String get advancedSettingsTitle => 'Configurações avançadas';
+
+  @override
+  String get accountPreferencesTitle => 'Conta e preferências';
+
+  @override
+  String get socialsTitle => 'Redes Sociais';
+
+  @override
+  String get confirmDeletionTitle => 'Confirmar exclusão';
+
+  @override
+  String get confirmDeletionPrompt => 'Por favor, digite seu nome de usuário para confirmar a exclusão.';
+
+  @override
+  String get confirmButton => 'Confirmar';
+
+  @override
+  String get usernameMismatch => 'O nome de usuário não corresponde. Exclusão cancelada.';
+
+  @override
+  String get exportSuccess => 'Exportado com sucesso';
+
+  @override
+  String get policiesTitle => 'Políticas';
+
+  @override
+  String get reminderScheduled => 'Lembrete agendado com sucesso.';
+
+  @override
+  String reminderFailed(String error) {
+    return 'Link adicionado, mas lembrete falhou: $error';
+  }
+
+  @override
+  String addLinkFailed(String error) {
+    return 'Falha ao adicionar link: $error';
+  }
+
+  @override
+  String errorLoadingDeleted(String error) {
+    return 'Erro ao carregar links excluídos: $error';
+  }
+
+  @override
+  String errorLoadingDocument(String error) {
+    return 'Erro ao carregar documento: $error';
+  }
+
+  @override
+  String selectFolder(String folderName) {
+    return 'Selecionar $folderName';
+  }
+
+  @override
+  String get thisFolder => 'esta pasta';
+
+  @override
+  String get whatsNewSubtitle => 'ReadItLater agora é Pile - o mesmo app, uma nova identidade.';
+
+  @override
+  String get whatsNewHeader => 'O que há de novo:';
+
+  @override
+  String get whatsNewPoint1 => '- Novo nome, novo ícone';
+
+  @override
+  String get whatsNewPoint2 => '- Correções de bugs e melhorias';
+
+  @override
+  String get whatsNewFooter => 'Obrigado por estar conosco desde o início.';
 }
 
 /// The translations for Portuguese, as used in Brazil (`pt_BR`).
@@ -1042,6 +1145,12 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   String get accountInformation => 'Informações da conta';
 
   @override
+  String get securityTitle => 'Segurança';
+
+  @override
+  String get preferencesTitle => 'Preferências';
+
+  @override
   String get profilePicture => 'Foto do perfil';
 
   @override
@@ -1403,6 +1512,103 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get otpResendCode => 'Reenviar código';
+
+  @override
+  String get donateSaweria => 'Doe para nós via Saweria';
+
+  @override
+  String get saweriaRegionWarning => 'Doar para nós via Saweria só está disponível na Indonésia e nas Filipinas.';
+
+  @override
+  String get proceed => 'Prosseguir';
+
+  @override
+  String get website => 'Pile web';
+
+  @override
+  String get themeScreenTitle => 'Tema';
+
+  @override
+  String get systemDefault => 'Padrão do sistema';
+
+  @override
+  String get lightTheme => 'Claro';
+
+  @override
+  String get darkTheme => 'Escuro';
+
+  @override
+  String get advancedSettingsTitle => 'Configurações avançadas';
+
+  @override
+  String get accountPreferencesTitle => 'Conta e preferências';
+
+  @override
+  String get socialsTitle => 'Redes Sociais';
+
+  @override
+  String get confirmDeletionTitle => 'Confirmar exclusão';
+
+  @override
+  String get confirmDeletionPrompt => 'Por favor, digite seu nome de usuário para confirmar a exclusão.';
+
+  @override
+  String get confirmButton => 'Confirmar';
+
+  @override
+  String get usernameMismatch => 'O nome de usuário não corresponde. Exclusão cancelada.';
+
+  @override
+  String get exportSuccess => 'Exportado com sucesso';
+
+  @override
+  String get policiesTitle => 'Políticas';
+
+  @override
+  String get reminderScheduled => 'Lembrete agendado com sucesso.';
+
+  @override
+  String reminderFailed(String error) {
+    return 'Link adicionado, mas lembrete falhou: $error';
+  }
+
+  @override
+  String addLinkFailed(String error) {
+    return 'Falha ao adicionar link: $error';
+  }
+
+  @override
+  String errorLoadingDeleted(String error) {
+    return 'Erro ao carregar links excluídos: $error';
+  }
+
+  @override
+  String errorLoadingDocument(String error) {
+    return 'Erro ao carregar documento: $error';
+  }
+
+  @override
+  String selectFolder(String folderName) {
+    return 'Selecionar $folderName';
+  }
+
+  @override
+  String get thisFolder => 'esta pasta';
+
+  @override
+  String get whatsNewSubtitle => 'ReadItLater agora é Pile - o mesmo app, uma nova identidade.';
+
+  @override
+  String get whatsNewHeader => 'O que há de novo:';
+
+  @override
+  String get whatsNewPoint1 => '- Novo nome, novo ícone';
+
+  @override
+  String get whatsNewPoint2 => '- Correções de bugs e melhorias';
+
+  @override
+  String get whatsNewFooter => 'Obrigado por estar conosco desde o início.';
 }
 
 /// The translations for Portuguese, as used in Portugal (`pt_PT`).
@@ -1739,6 +1945,12 @@ class AppLocalizationsPtPt extends AppLocalizationsPt {
 
   @override
   String get accountInformation => 'Informações da conta';
+
+  @override
+  String get securityTitle => 'Segurança';
+
+  @override
+  String get preferencesTitle => 'Preferências';
 
   @override
   String get profilePicture => 'Foto do perfil';
@@ -2102,4 +2314,101 @@ class AppLocalizationsPtPt extends AppLocalizationsPt {
 
   @override
   String get otpResendCode => 'Reenviar código';
+
+  @override
+  String get donateSaweria => 'Doe para nós via Saweria';
+
+  @override
+  String get saweriaRegionWarning => 'Doar para nós via Saweria só está disponível na Indonésia e nas Filipinas.';
+
+  @override
+  String get proceed => 'Prosseguir';
+
+  @override
+  String get website => 'Pile web';
+
+  @override
+  String get themeScreenTitle => 'Tema';
+
+  @override
+  String get systemDefault => 'Padrão do sistema';
+
+  @override
+  String get lightTheme => 'Claro';
+
+  @override
+  String get darkTheme => 'Escuro';
+
+  @override
+  String get advancedSettingsTitle => 'Configurações avançadas';
+
+  @override
+  String get accountPreferencesTitle => 'Conta e preferências';
+
+  @override
+  String get socialsTitle => 'Redes Sociais';
+
+  @override
+  String get confirmDeletionTitle => 'Confirmar exclusão';
+
+  @override
+  String get confirmDeletionPrompt => 'Por favor, digite seu nome de usuário para confirmar a exclusão.';
+
+  @override
+  String get confirmButton => 'Confirmar';
+
+  @override
+  String get usernameMismatch => 'O nome de usuário não corresponde. Exclusão cancelada.';
+
+  @override
+  String get exportSuccess => 'Exportado com sucesso';
+
+  @override
+  String get policiesTitle => 'Políticas';
+
+  @override
+  String get reminderScheduled => 'Lembrete agendado com sucesso.';
+
+  @override
+  String reminderFailed(String error) {
+    return 'Link adicionado, mas lembrete falhou: $error';
+  }
+
+  @override
+  String addLinkFailed(String error) {
+    return 'Falha ao adicionar link: $error';
+  }
+
+  @override
+  String errorLoadingDeleted(String error) {
+    return 'Erro ao carregar links excluídos: $error';
+  }
+
+  @override
+  String errorLoadingDocument(String error) {
+    return 'Erro ao carregar documento: $error';
+  }
+
+  @override
+  String selectFolder(String folderName) {
+    return 'Selecionar $folderName';
+  }
+
+  @override
+  String get thisFolder => 'esta pasta';
+
+  @override
+  String get whatsNewSubtitle => 'ReadItLater agora é Pile - o mesmo app, uma nova identidade.';
+
+  @override
+  String get whatsNewHeader => 'O que há de novo:';
+
+  @override
+  String get whatsNewPoint1 => '- Novo nome, novo ícone';
+
+  @override
+  String get whatsNewPoint2 => '- Correções de bugs e melhorias';
+
+  @override
+  String get whatsNewFooter => 'Obrigado por estar conosco desde o início.';
 }

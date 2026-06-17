@@ -343,6 +343,12 @@ class AppLocalizationsId extends AppLocalizations {
   String get accountInformation => 'Informasi akun';
 
   @override
+  String get securityTitle => 'Keamanan';
+
+  @override
+  String get preferencesTitle => 'Preferensi';
+
+  @override
   String get profilePicture => 'Foto profil';
 
   @override
@@ -704,4 +710,101 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get otpResendCode => 'Kirim Ulang Kode';
+
+  @override
+  String get donateSaweria => 'Donasi kami via Saweria';
+
+  @override
+  String get saweriaRegionWarning => 'Donasi kepada kami via Saweria hanya tersedia di Indonesia dan Filipina.';
+
+  @override
+  String get proceed => 'Lanjutkan';
+
+  @override
+  String get website => 'Pile web';
+
+  @override
+  String get themeScreenTitle => 'Tema';
+
+  @override
+  String get systemDefault => 'Bawaan sistem';
+
+  @override
+  String get lightTheme => 'Terang';
+
+  @override
+  String get darkTheme => 'Gelap';
+
+  @override
+  String get advancedSettingsTitle => 'Pengaturan lanjutan';
+
+  @override
+  String get accountPreferencesTitle => 'Akun & preferensi';
+
+  @override
+  String get socialsTitle => 'Sosial';
+
+  @override
+  String get confirmDeletionTitle => 'Konfirmasi Penghapusan';
+
+  @override
+  String get confirmDeletionPrompt => 'Harap ketik nama pengguna Anda untuk mengonfirmasi penghapusan.';
+
+  @override
+  String get confirmButton => 'Konfirmasi';
+
+  @override
+  String get usernameMismatch => 'Nama pengguna tidak cocok. Penghapusan dibatalkan.';
+
+  @override
+  String get exportSuccess => 'Berhasil diekspor';
+
+  @override
+  String get policiesTitle => 'Kebijakan';
+
+  @override
+  String get reminderScheduled => 'Pengingat berhasil dijadwalkan.';
+
+  @override
+  String reminderFailed(String error) {
+    return 'Tautan ditambahkan, tetapi pengingat gagal: $error';
+  }
+
+  @override
+  String addLinkFailed(String error) {
+    return 'Gagal menambahkan tautan: $error';
+  }
+
+  @override
+  String errorLoadingDeleted(String error) {
+    return 'Kesalahan saat memuat tautan yang dihapus: $error';
+  }
+
+  @override
+  String errorLoadingDocument(String error) {
+    return 'Kesalahan saat memuat dokumen: $error';
+  }
+
+  @override
+  String selectFolder(String folderName) {
+    return 'Pilih $folderName';
+  }
+
+  @override
+  String get thisFolder => 'folder ini';
+
+  @override
+  String get whatsNewSubtitle => 'ReadItLater sekarang menjadi Pile - aplikasi yang sama, identitas baru.';
+
+  @override
+  String get whatsNewHeader => 'Apa yang baru:';
+
+  @override
+  String get whatsNewPoint1 => '- Nama baru, ikon baru, tetap Anda';
+
+  @override
+  String get whatsNewPoint2 => '- Perbaikan bug dan peningkatan';
+
+  @override
+  String get whatsNewFooter => 'Terima kasih telah berada di sini sejak awal.';
 }

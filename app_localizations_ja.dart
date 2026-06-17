@@ -343,6 +343,12 @@ class AppLocalizationsJa extends AppLocalizations {
   String get accountInformation => 'アカウント情報';
 
   @override
+  String get securityTitle => 'セキュリティ';
+
+  @override
+  String get preferencesTitle => '設定';
+
+  @override
   String get profilePicture => 'プロフィール画像';
 
   @override
@@ -704,4 +710,101 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get otpResendCode => 'コードを再送信';
+
+  @override
+  String get donateSaweria => 'Saweria経由で寄付する';
+
+  @override
+  String get saweriaRegionWarning => 'Saweria経由での寄付は、インドネシアとフィリピンでのみご利用いただけます。';
+
+  @override
+  String get proceed => '進む';
+
+  @override
+  String get website => 'Pileウェブ';
+
+  @override
+  String get themeScreenTitle => 'テーマ';
+
+  @override
+  String get systemDefault => 'システムデフォルト';
+
+  @override
+  String get lightTheme => 'ライト';
+
+  @override
+  String get darkTheme => 'ダーク';
+
+  @override
+  String get advancedSettingsTitle => '詳細設定';
+
+  @override
+  String get accountPreferencesTitle => 'アカウントと設定';
+
+  @override
+  String get socialsTitle => 'ソーシャル';
+
+  @override
+  String get confirmDeletionTitle => '削除の確認';
+
+  @override
+  String get confirmDeletionPrompt => '削除を確認するにはユーザー名を入力してください。';
+
+  @override
+  String get confirmButton => '確認';
+
+  @override
+  String get usernameMismatch => 'ユーザー名が一致しません。削除はキャンセルされました。';
+
+  @override
+  String get exportSuccess => '正常にエクスポートされました';
+
+  @override
+  String get policiesTitle => 'ポリシー';
+
+  @override
+  String get reminderScheduled => 'リマインダーが正常にスケジュールされました。';
+
+  @override
+  String reminderFailed(String error) {
+    return 'リンクは追加されましたが、リマインダーに失敗しました: $error';
+  }
+
+  @override
+  String addLinkFailed(String error) {
+    return 'リンクの追加に失敗しました: $error';
+  }
+
+  @override
+  String errorLoadingDeleted(String error) {
+    return '削除されたリンクの読み込みエラー: $error';
+  }
+
+  @override
+  String errorLoadingDocument(String error) {
+    return 'ドキュメントの読み込みエラー: $error';
+  }
+
+  @override
+  String selectFolder(String folderName) {
+    return '$folderName を選択';
+  }
+
+  @override
+  String get thisFolder => 'このフォルダ';
+
+  @override
+  String get whatsNewSubtitle => 'ReadItLaterはPileになりました - 同じアプリ、新しいアイデンティティ。';
+
+  @override
+  String get whatsNewHeader => '新機能:';
+
+  @override
+  String get whatsNewPoint1 => '- 新しい名前、新しいアイコン';
+
+  @override
+  String get whatsNewPoint2 => '- バグの修正と改善';
+
+  @override
+  String get whatsNewFooter => '最初からここにいてくれてありがとう。';
 }

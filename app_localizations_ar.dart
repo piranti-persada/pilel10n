@@ -343,6 +343,12 @@ class AppLocalizationsAr extends AppLocalizations {
   String get accountInformation => 'معلومات الحساب';
 
   @override
+  String get securityTitle => 'الأمان';
+
+  @override
+  String get preferencesTitle => 'التفضيلات';
+
+  @override
   String get profilePicture => 'صورة الملف الشخصي';
 
   @override
@@ -704,4 +710,101 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get otpResendCode => 'إعادة إرسال الرمز';
+
+  @override
+  String get donateSaweria => 'تبرع لنا عبر Saweria';
+
+  @override
+  String get saweriaRegionWarning => 'التبرع لنا عبر Saweria متاح فقط في إندونيسيا والفلبين.';
+
+  @override
+  String get proceed => 'متابعة';
+
+  @override
+  String get website => 'Pile ويب';
+
+  @override
+  String get themeScreenTitle => 'السمة';
+
+  @override
+  String get systemDefault => 'النظام الافتراضي';
+
+  @override
+  String get lightTheme => 'فاتح';
+
+  @override
+  String get darkTheme => 'داكن';
+
+  @override
+  String get advancedSettingsTitle => 'إعدادات متقدمة';
+
+  @override
+  String get accountPreferencesTitle => 'الحساب والتفضيلات';
+
+  @override
+  String get socialsTitle => 'اجتماعي';
+
+  @override
+  String get confirmDeletionTitle => 'تأكيد الحذف';
+
+  @override
+  String get confirmDeletionPrompt => 'يرجى كتابة اسم المستخدم لتأكيد الحذف.';
+
+  @override
+  String get confirmButton => 'تأكيد';
+
+  @override
+  String get usernameMismatch => 'اسم المستخدم غير متطابق. تم إلغاء الحذف.';
+
+  @override
+  String get exportSuccess => 'تم التصدير بنجاح';
+
+  @override
+  String get policiesTitle => 'السياسات';
+
+  @override
+  String get reminderScheduled => 'تمت جدولة التذكير بنجاح.';
+
+  @override
+  String reminderFailed(String error) {
+    return 'تمت إضافة الرابط، لكن فشل التذكير: $error';
+  }
+
+  @override
+  String addLinkFailed(String error) {
+    return 'فشلت إضافة الرابط: $error';
+  }
+
+  @override
+  String errorLoadingDeleted(String error) {
+    return 'خطأ في تحميل الروابط المحذوفة: $error';
+  }
+
+  @override
+  String errorLoadingDocument(String error) {
+    return 'خطأ في تحميل المستند: $error';
+  }
+
+  @override
+  String selectFolder(String folderName) {
+    return 'تحديد $folderName';
+  }
+
+  @override
+  String get thisFolder => 'هذا المجلد';
+
+  @override
+  String get whatsNewSubtitle => 'أصبح ReadItLater الآن Pile - نفس التطبيق بهوية جديدة.';
+
+  @override
+  String get whatsNewHeader => 'ما الجديد:';
+
+  @override
+  String get whatsNewPoint1 => '- اسم جديد، أيقونة جديدة، نفس التطبيق';
+
+  @override
+  String get whatsNewPoint2 => '- إصلاحات الشوائب والتحسينات';
+
+  @override
+  String get whatsNewFooter => 'شكرا لوجودك هنا منذ البداية.';
 }

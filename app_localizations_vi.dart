@@ -343,6 +343,12 @@ class AppLocalizationsVi extends AppLocalizations {
   String get accountInformation => 'Thông tin tài khoản';
 
   @override
+  String get securityTitle => 'Bảo mật';
+
+  @override
+  String get preferencesTitle => 'Tùy chọn';
+
+  @override
   String get profilePicture => 'Ảnh hồ sơ';
 
   @override
@@ -704,4 +710,101 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get otpResendCode => 'Gửi lại mã';
+
+  @override
+  String get donateSaweria => 'Quyên góp cho chúng tôi qua Saweria';
+
+  @override
+  String get saweriaRegionWarning => 'Quyên góp cho chúng tôi qua Saweria chỉ có sẵn ở Indonesia và Philippines.';
+
+  @override
+  String get proceed => 'Tiến hành';
+
+  @override
+  String get website => 'Pile web';
+
+  @override
+  String get themeScreenTitle => 'Chủ đề';
+
+  @override
+  String get systemDefault => 'Hệ thống';
+
+  @override
+  String get lightTheme => 'Sáng';
+
+  @override
+  String get darkTheme => 'Tối';
+
+  @override
+  String get advancedSettingsTitle => 'Cài đặt nâng cao';
+
+  @override
+  String get accountPreferencesTitle => 'Tài khoản & tùy chọn';
+
+  @override
+  String get socialsTitle => 'Mạng xã hội';
+
+  @override
+  String get confirmDeletionTitle => 'Xác nhận xóa';
+
+  @override
+  String get confirmDeletionPrompt => 'Vui lòng nhập tên người dùng để xác nhận.';
+
+  @override
+  String get confirmButton => 'Xác nhận';
+
+  @override
+  String get usernameMismatch => 'Tên người dùng không khớp. Đã hủy xóa.';
+
+  @override
+  String get exportSuccess => 'Xuất thành công';
+
+  @override
+  String get policiesTitle => 'Chính sách';
+
+  @override
+  String get reminderScheduled => 'Đã lên lịch nhắc nhở thành công.';
+
+  @override
+  String reminderFailed(String error) {
+    return 'Đã thêm liên kết, nhưng nhắc nhở thất bại: $error';
+  }
+
+  @override
+  String addLinkFailed(String error) {
+    return 'Thêm liên kết thất bại: $error';
+  }
+
+  @override
+  String errorLoadingDeleted(String error) {
+    return 'Lỗi khi tải liên kết đã xóa: $error';
+  }
+
+  @override
+  String errorLoadingDocument(String error) {
+    return 'Lỗi khi tải tài liệu: $error';
+  }
+
+  @override
+  String selectFolder(String folderName) {
+    return 'Chọn $folderName';
+  }
+
+  @override
+  String get thisFolder => 'thư mục này';
+
+  @override
+  String get whatsNewSubtitle => 'ReadItLater giờ là Pile - ứng dụng cũ, tên gọi mới.';
+
+  @override
+  String get whatsNewHeader => 'Có gì mới:';
+
+  @override
+  String get whatsNewPoint1 => '- Tên mới, biểu tượng mới';
+
+  @override
+  String get whatsNewPoint2 => '- Sửa lỗi và cải tiến';
+
+  @override
+  String get whatsNewFooter => 'Cảm ơn bạn đã đồng hành từ đầu.';
 }

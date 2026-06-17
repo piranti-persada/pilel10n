@@ -343,6 +343,12 @@ class AppLocalizationsEs extends AppLocalizations {
   String get accountInformation => 'Información de la cuenta';
 
   @override
+  String get securityTitle => 'Seguridad';
+
+  @override
+  String get preferencesTitle => 'Preferencias';
+
+  @override
   String get profilePicture => 'Foto de perfil';
 
   @override
@@ -704,6 +710,103 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get otpResendCode => 'Reenviar código';
+
+  @override
+  String get donateSaweria => 'Dónanos a través de Saweria';
+
+  @override
+  String get saweriaRegionWarning => 'Donar a nosotros a través de Saweria solo está disponible en Indonesia y Filipinas.';
+
+  @override
+  String get proceed => 'Proceder';
+
+  @override
+  String get website => 'Pile web';
+
+  @override
+  String get themeScreenTitle => 'Tema';
+
+  @override
+  String get systemDefault => 'Predeterminado';
+
+  @override
+  String get lightTheme => 'Claro';
+
+  @override
+  String get darkTheme => 'Oscuro';
+
+  @override
+  String get advancedSettingsTitle => 'Ajustes avanzados';
+
+  @override
+  String get accountPreferencesTitle => 'Cuenta y preferencias';
+
+  @override
+  String get socialsTitle => 'Redes sociales';
+
+  @override
+  String get confirmDeletionTitle => 'Confirmar eliminación';
+
+  @override
+  String get confirmDeletionPrompt => 'Por favor, escriba su nombre de usuario para confirmar la eliminación.';
+
+  @override
+  String get confirmButton => 'Confirmar';
+
+  @override
+  String get usernameMismatch => 'El nombre de usuario no coincide. Eliminación cancelada.';
+
+  @override
+  String get exportSuccess => 'Exportado exitosamente';
+
+  @override
+  String get policiesTitle => 'Políticas';
+
+  @override
+  String get reminderScheduled => 'Recordatorio programado con éxito.';
+
+  @override
+  String reminderFailed(String error) {
+    return 'Enlace añadido, pero falló el recordatorio: $error';
+  }
+
+  @override
+  String addLinkFailed(String error) {
+    return 'No se pudo añadir el enlace: $error';
+  }
+
+  @override
+  String errorLoadingDeleted(String error) {
+    return 'Error al cargar enlaces eliminados: $error';
+  }
+
+  @override
+  String errorLoadingDocument(String error) {
+    return 'Error al cargar documento: $error';
+  }
+
+  @override
+  String selectFolder(String folderName) {
+    return 'Seleccionar $folderName';
+  }
+
+  @override
+  String get thisFolder => 'esta carpeta';
+
+  @override
+  String get whatsNewSubtitle => 'ReadItLater es ahora Pile: misma aplicación, nueva identidad.';
+
+  @override
+  String get whatsNewHeader => 'Qué hay de nuevo:';
+
+  @override
+  String get whatsNewPoint1 => '- Nuevo nombre, nuevo icono, tú mismo';
+
+  @override
+  String get whatsNewPoint2 => '- Corrección de errores y mejoras';
+
+  @override
+  String get whatsNewFooter => 'Gracias por estar aquí desde el principio.';
 }
 
 /// The translations for Spanish Castilian, as used in Latin America and the Caribbean (`es_419`).
@@ -1042,6 +1145,12 @@ class AppLocalizationsEs419 extends AppLocalizationsEs {
   String get accountInformation => 'Información de la cuenta';
 
   @override
+  String get securityTitle => 'Seguridad';
+
+  @override
+  String get preferencesTitle => 'Preferencias';
+
+  @override
   String get profilePicture => 'Foto de perfil';
 
   @override
@@ -1403,6 +1512,103 @@ class AppLocalizationsEs419 extends AppLocalizationsEs {
 
   @override
   String get otpResendCode => 'Reenviar código';
+
+  @override
+  String get donateSaweria => 'Dónanos a través de Saweria';
+
+  @override
+  String get saweriaRegionWarning => 'Donar a nosotros a través de Saweria solo está disponible en Indonesia y Filipinas.';
+
+  @override
+  String get proceed => 'Proceder';
+
+  @override
+  String get website => 'Pile web';
+
+  @override
+  String get themeScreenTitle => 'Tema';
+
+  @override
+  String get systemDefault => 'Predeterminado';
+
+  @override
+  String get lightTheme => 'Claro';
+
+  @override
+  String get darkTheme => 'Oscuro';
+
+  @override
+  String get advancedSettingsTitle => 'Ajustes avanzados';
+
+  @override
+  String get accountPreferencesTitle => 'Cuenta y preferencias';
+
+  @override
+  String get socialsTitle => 'Redes sociales';
+
+  @override
+  String get confirmDeletionTitle => 'Confirmar eliminación';
+
+  @override
+  String get confirmDeletionPrompt => 'Por favor, escriba su nombre de usuario para confirmar la eliminación.';
+
+  @override
+  String get confirmButton => 'Confirmar';
+
+  @override
+  String get usernameMismatch => 'El nombre de usuario no coincide. Eliminación cancelada.';
+
+  @override
+  String get exportSuccess => 'Exportado exitosamente';
+
+  @override
+  String get policiesTitle => 'Políticas';
+
+  @override
+  String get reminderScheduled => 'Recordatorio programado con éxito.';
+
+  @override
+  String reminderFailed(String error) {
+    return 'Enlace añadido, pero falló el recordatorio: $error';
+  }
+
+  @override
+  String addLinkFailed(String error) {
+    return 'No se pudo añadir el enlace: $error';
+  }
+
+  @override
+  String errorLoadingDeleted(String error) {
+    return 'Error al cargar enlaces eliminados: $error';
+  }
+
+  @override
+  String errorLoadingDocument(String error) {
+    return 'Error al cargar documento: $error';
+  }
+
+  @override
+  String selectFolder(String folderName) {
+    return 'Seleccionar $folderName';
+  }
+
+  @override
+  String get thisFolder => 'esta carpeta';
+
+  @override
+  String get whatsNewSubtitle => 'ReadItLater es ahora Pile: misma aplicación, nueva identidad.';
+
+  @override
+  String get whatsNewHeader => 'Qué hay de nuevo:';
+
+  @override
+  String get whatsNewPoint1 => '- Nuevo nombre, nuevo icono, tú mismo';
+
+  @override
+  String get whatsNewPoint2 => '- Corrección de errores y mejoras';
+
+  @override
+  String get whatsNewFooter => 'Gracias por estar aquí desde el principio.';
 }
 
 /// The translations for Spanish Castilian, as used in Spain (`es_ES`).
@@ -1739,6 +1945,12 @@ class AppLocalizationsEsEs extends AppLocalizationsEs {
 
   @override
   String get accountInformation => 'Información de la cuenta';
+
+  @override
+  String get securityTitle => 'Seguridad';
+
+  @override
+  String get preferencesTitle => 'Preferencias';
 
   @override
   String get profilePicture => 'Foto de perfil';
@@ -2102,4 +2314,101 @@ class AppLocalizationsEsEs extends AppLocalizationsEs {
 
   @override
   String get otpResendCode => 'Reenviar código';
+
+  @override
+  String get donateSaweria => 'Dónanos a través de Saweria';
+
+  @override
+  String get saweriaRegionWarning => 'Donar a nosotros a través de Saweria solo está disponible en Indonesia y Filipinas.';
+
+  @override
+  String get proceed => 'Proceder';
+
+  @override
+  String get website => 'Pile web';
+
+  @override
+  String get themeScreenTitle => 'Tema';
+
+  @override
+  String get systemDefault => 'Predeterminado';
+
+  @override
+  String get lightTheme => 'Claro';
+
+  @override
+  String get darkTheme => 'Oscuro';
+
+  @override
+  String get advancedSettingsTitle => 'Ajustes avanzados';
+
+  @override
+  String get accountPreferencesTitle => 'Cuenta y preferencias';
+
+  @override
+  String get socialsTitle => 'Redes sociales';
+
+  @override
+  String get confirmDeletionTitle => 'Confirmar eliminación';
+
+  @override
+  String get confirmDeletionPrompt => 'Por favor, escriba su nombre de usuario para confirmar la eliminación.';
+
+  @override
+  String get confirmButton => 'Confirmar';
+
+  @override
+  String get usernameMismatch => 'El nombre de usuario no coincide. Eliminación cancelada.';
+
+  @override
+  String get exportSuccess => 'Exportado exitosamente';
+
+  @override
+  String get policiesTitle => 'Políticas';
+
+  @override
+  String get reminderScheduled => 'Recordatorio programado con éxito.';
+
+  @override
+  String reminderFailed(String error) {
+    return 'Enlace añadido, pero falló el recordatorio: $error';
+  }
+
+  @override
+  String addLinkFailed(String error) {
+    return 'No se pudo añadir el enlace: $error';
+  }
+
+  @override
+  String errorLoadingDeleted(String error) {
+    return 'Error al cargar enlaces eliminados: $error';
+  }
+
+  @override
+  String errorLoadingDocument(String error) {
+    return 'Error al cargar documento: $error';
+  }
+
+  @override
+  String selectFolder(String folderName) {
+    return 'Seleccionar $folderName';
+  }
+
+  @override
+  String get thisFolder => 'esta carpeta';
+
+  @override
+  String get whatsNewSubtitle => 'ReadItLater es ahora Pile: misma aplicación, nueva identidad.';
+
+  @override
+  String get whatsNewHeader => 'Qué hay de nuevo:';
+
+  @override
+  String get whatsNewPoint1 => '- Nuevo nombre, nuevo icono, tú mismo';
+
+  @override
+  String get whatsNewPoint2 => '- Corrección de errores y mejoras';
+
+  @override
+  String get whatsNewFooter => 'Gracias por estar aquí desde el principio.';
 }

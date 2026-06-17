@@ -343,6 +343,12 @@ class AppLocalizationsZh extends AppLocalizations {
   String get accountInformation => '账户信息';
 
   @override
+  String get securityTitle => '安全';
+
+  @override
+  String get preferencesTitle => '偏好设置';
+
+  @override
   String get profilePicture => '头像';
 
   @override
@@ -704,6 +710,103 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get otpResendCode => '重新发送验证码';
+
+  @override
+  String get donateSaweria => '通过 Saweria 捐款';
+
+  @override
+  String get saweriaRegionWarning => '通过 Saweria 捐款仅在印度尼西亚和菲律宾可用。';
+
+  @override
+  String get proceed => '继续';
+
+  @override
+  String get website => 'Pile 网页版';
+
+  @override
+  String get themeScreenTitle => '主题';
+
+  @override
+  String get systemDefault => '跟随系统';
+
+  @override
+  String get lightTheme => '浅色';
+
+  @override
+  String get darkTheme => '深色';
+
+  @override
+  String get advancedSettingsTitle => '高级设置';
+
+  @override
+  String get accountPreferencesTitle => '账号和偏好';
+
+  @override
+  String get socialsTitle => '社交';
+
+  @override
+  String get confirmDeletionTitle => '确认删除';
+
+  @override
+  String get confirmDeletionPrompt => '请输入您的用户名以确认删除。';
+
+  @override
+  String get confirmButton => '确认';
+
+  @override
+  String get usernameMismatch => '用户名不匹配，删除已取消。';
+
+  @override
+  String get exportSuccess => '导出成功';
+
+  @override
+  String get policiesTitle => '政策';
+
+  @override
+  String get reminderScheduled => '提醒已成功设定。';
+
+  @override
+  String reminderFailed(String error) {
+    return '链接已添加，但提醒设定失败: $error';
+  }
+
+  @override
+  String addLinkFailed(String error) {
+    return '无法添加链接: $error';
+  }
+
+  @override
+  String errorLoadingDeleted(String error) {
+    return '加载已删除链接失败: $error';
+  }
+
+  @override
+  String errorLoadingDocument(String error) {
+    return '加载文档失败: $error';
+  }
+
+  @override
+  String selectFolder(String folderName) {
+    return '选择 $folderName';
+  }
+
+  @override
+  String get thisFolder => '此文件夹';
+
+  @override
+  String get whatsNewSubtitle => 'ReadItLater 现已更名为 Pile - 同一个应用，全新标识。';
+
+  @override
+  String get whatsNewHeader => '新功能：';
+
+  @override
+  String get whatsNewPoint1 => '- 新名字，新图标，还是你';
+
+  @override
+  String get whatsNewPoint2 => '- 错误修复和改进';
+
+  @override
+  String get whatsNewFooter => '感谢你从一开始就在这里。';
 }
 
 /// The translations for Chinese, as used in China (`zh_CN`).
@@ -1043,6 +1146,12 @@ class AppLocalizationsZhCn extends AppLocalizationsZh {
 
   @override
   String get accountInformation => '账户信息';
+
+  @override
+  String get securityTitle => '安全';
+
+  @override
+  String get preferencesTitle => '偏好设置';
 
   @override
   String get profilePicture => '头像';
@@ -1406,6 +1515,103 @@ class AppLocalizationsZhCn extends AppLocalizationsZh {
 
   @override
   String get otpResendCode => '重新发送验证码';
+
+  @override
+  String get donateSaweria => '通过 Saweria 捐款';
+
+  @override
+  String get saweriaRegionWarning => '通过 Saweria 捐款仅在印度尼西亚和菲律宾可用。';
+
+  @override
+  String get proceed => '继续';
+
+  @override
+  String get website => 'Pile 网页版';
+
+  @override
+  String get themeScreenTitle => '主题';
+
+  @override
+  String get systemDefault => '跟随系统';
+
+  @override
+  String get lightTheme => '浅色';
+
+  @override
+  String get darkTheme => '深色';
+
+  @override
+  String get advancedSettingsTitle => '高级设置';
+
+  @override
+  String get accountPreferencesTitle => '账号和偏好';
+
+  @override
+  String get socialsTitle => '社交';
+
+  @override
+  String get confirmDeletionTitle => '确认删除';
+
+  @override
+  String get confirmDeletionPrompt => '请输入您的用户名以确认删除。';
+
+  @override
+  String get confirmButton => '确认';
+
+  @override
+  String get usernameMismatch => '用户名不匹配，删除已取消。';
+
+  @override
+  String get exportSuccess => '导出成功';
+
+  @override
+  String get policiesTitle => '政策';
+
+  @override
+  String get reminderScheduled => '提醒已成功设定。';
+
+  @override
+  String reminderFailed(String error) {
+    return '链接已添加，但提醒设定失败: $error';
+  }
+
+  @override
+  String addLinkFailed(String error) {
+    return '无法添加链接: $error';
+  }
+
+  @override
+  String errorLoadingDeleted(String error) {
+    return '加载已删除链接失败: $error';
+  }
+
+  @override
+  String errorLoadingDocument(String error) {
+    return '加载文档失败: $error';
+  }
+
+  @override
+  String selectFolder(String folderName) {
+    return '选择 $folderName';
+  }
+
+  @override
+  String get thisFolder => '此文件夹';
+
+  @override
+  String get whatsNewSubtitle => 'ReadItLater 现已更名为 Pile - 同一个应用，全新标识。';
+
+  @override
+  String get whatsNewHeader => '新功能：';
+
+  @override
+  String get whatsNewPoint1 => '- 新名字，新图标，还是你';
+
+  @override
+  String get whatsNewPoint2 => '- 错误修复和改进';
+
+  @override
+  String get whatsNewFooter => '感谢你从一开始就在这里。';
 }
 
 /// The translations for Chinese, as used in Hong Kong (`zh_HK`).
@@ -1745,6 +1951,12 @@ class AppLocalizationsZhHk extends AppLocalizationsZh {
 
   @override
   String get accountInformation => '帳戶資訊';
+
+  @override
+  String get securityTitle => '安全';
+
+  @override
+  String get preferencesTitle => '偏好設定';
 
   @override
   String get profilePicture => '頭像';
@@ -2108,6 +2320,103 @@ class AppLocalizationsZhHk extends AppLocalizationsZh {
 
   @override
   String get otpResendCode => '重新發送驗證碼';
+
+  @override
+  String get donateSaweria => '透過 Saweria 捐款';
+
+  @override
+  String get saweriaRegionWarning => '透過 Saweria 捐款僅在印尼和菲律賓可用。';
+
+  @override
+  String get proceed => '繼續';
+
+  @override
+  String get website => 'Pile 網頁版';
+
+  @override
+  String get themeScreenTitle => '主題';
+
+  @override
+  String get systemDefault => '跟隨系統';
+
+  @override
+  String get lightTheme => '淺色';
+
+  @override
+  String get darkTheme => '深色';
+
+  @override
+  String get advancedSettingsTitle => '高級設定';
+
+  @override
+  String get accountPreferencesTitle => '帳號與偏好';
+
+  @override
+  String get socialsTitle => '社交';
+
+  @override
+  String get confirmDeletionTitle => '確認刪除';
+
+  @override
+  String get confirmDeletionPrompt => '請輸入您的使用者名稱以確認刪除。';
+
+  @override
+  String get confirmButton => '確認';
+
+  @override
+  String get usernameMismatch => '使用者名稱不符合，刪除已取消。';
+
+  @override
+  String get exportSuccess => '匯出成功';
+
+  @override
+  String get policiesTitle => '政策';
+
+  @override
+  String get reminderScheduled => '提醒已成功設定。';
+
+  @override
+  String reminderFailed(String error) {
+    return '連結已新增，但提醒設定失敗: $error';
+  }
+
+  @override
+  String addLinkFailed(String error) {
+    return '無法新增連結: $error';
+  }
+
+  @override
+  String errorLoadingDeleted(String error) {
+    return '載入已刪除連結失敗: $error';
+  }
+
+  @override
+  String errorLoadingDocument(String error) {
+    return '載入文件失敗: $error';
+  }
+
+  @override
+  String selectFolder(String folderName) {
+    return '選擇 $folderName';
+  }
+
+  @override
+  String get thisFolder => '此資料夾';
+
+  @override
+  String get whatsNewSubtitle => 'ReadItLater 現已更名為 Pile - 同一個應用，全新標識。';
+
+  @override
+  String get whatsNewHeader => '新功能：';
+
+  @override
+  String get whatsNewPoint1 => '- 新名字，新圖示，還是你';
+
+  @override
+  String get whatsNewPoint2 => '- 錯誤修復與改進';
+
+  @override
+  String get whatsNewFooter => '感謝你從一開始就在這裡。';
 }
 
 /// The translations for Chinese, as used in Taiwan (`zh_TW`).
@@ -2447,6 +2756,12 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
 
   @override
   String get accountInformation => '帳戶資訊';
+
+  @override
+  String get securityTitle => '安全';
+
+  @override
+  String get preferencesTitle => '偏好設定';
 
   @override
   String get profilePicture => '頭像';
@@ -2810,4 +3125,101 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
 
   @override
   String get otpResendCode => '重新發送驗證碼';
+
+  @override
+  String get donateSaweria => '透過 Saweria 捐款';
+
+  @override
+  String get saweriaRegionWarning => '透過 Saweria 捐款僅在印尼和菲律賓可用。';
+
+  @override
+  String get proceed => '繼續';
+
+  @override
+  String get website => 'Pile 網頁版';
+
+  @override
+  String get themeScreenTitle => '主題';
+
+  @override
+  String get systemDefault => '跟隨系統';
+
+  @override
+  String get lightTheme => '淺色';
+
+  @override
+  String get darkTheme => '深色';
+
+  @override
+  String get advancedSettingsTitle => '高級設定';
+
+  @override
+  String get accountPreferencesTitle => '帳號與偏好';
+
+  @override
+  String get socialsTitle => '社交';
+
+  @override
+  String get confirmDeletionTitle => '確認刪除';
+
+  @override
+  String get confirmDeletionPrompt => '請輸入您的使用者名稱以確認刪除。';
+
+  @override
+  String get confirmButton => '確認';
+
+  @override
+  String get usernameMismatch => '使用者名稱不符合，刪除已取消。';
+
+  @override
+  String get exportSuccess => '匯出成功';
+
+  @override
+  String get policiesTitle => '政策';
+
+  @override
+  String get reminderScheduled => '提醒已成功設定。';
+
+  @override
+  String reminderFailed(String error) {
+    return '連結已新增，但提醒設定失敗: $error';
+  }
+
+  @override
+  String addLinkFailed(String error) {
+    return '無法新增連結: $error';
+  }
+
+  @override
+  String errorLoadingDeleted(String error) {
+    return '載入已刪除連結失敗: $error';
+  }
+
+  @override
+  String errorLoadingDocument(String error) {
+    return '載入文件失敗: $error';
+  }
+
+  @override
+  String selectFolder(String folderName) {
+    return '選擇 $folderName';
+  }
+
+  @override
+  String get thisFolder => '此資料夾';
+
+  @override
+  String get whatsNewSubtitle => 'ReadItLater 現已更名為 Pile - 同一個應用，全新標識。';
+
+  @override
+  String get whatsNewHeader => '新功能：';
+
+  @override
+  String get whatsNewPoint1 => '- 新名字，新圖示，還是你';
+
+  @override
+  String get whatsNewPoint2 => '- 錯誤修復與改進';
+
+  @override
+  String get whatsNewFooter => '感謝你從一開始就在這裡。';
 }

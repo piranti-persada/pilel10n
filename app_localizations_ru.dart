@@ -343,6 +343,12 @@ class AppLocalizationsRu extends AppLocalizations {
   String get accountInformation => 'Информация об аккаунте';
 
   @override
+  String get securityTitle => 'Безопасность';
+
+  @override
+  String get preferencesTitle => 'Настройки';
+
+  @override
   String get profilePicture => 'Фото профиля';
 
   @override
@@ -704,4 +710,101 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get otpResendCode => 'Отправить код повторно';
+
+  @override
+  String get donateSaweria => 'Пожертвуйте нам через Saweria';
+
+  @override
+  String get saweriaRegionWarning => 'Пожертвование нам через Saweria доступно только в Индонезии и на Филиппинах.';
+
+  @override
+  String get proceed => 'Продолжить';
+
+  @override
+  String get website => 'Веб-версия Pile';
+
+  @override
+  String get themeScreenTitle => 'Тема';
+
+  @override
+  String get systemDefault => 'Системная';
+
+  @override
+  String get lightTheme => 'Светлая';
+
+  @override
+  String get darkTheme => 'Темная';
+
+  @override
+  String get advancedSettingsTitle => 'Расширенные настройки';
+
+  @override
+  String get accountPreferencesTitle => 'Аккаунт и настройки';
+
+  @override
+  String get socialsTitle => 'Соцсети';
+
+  @override
+  String get confirmDeletionTitle => 'Подтверждение удаления';
+
+  @override
+  String get confirmDeletionPrompt => 'Пожалуйста, введите ваше имя пользователя для подтверждения удаления.';
+
+  @override
+  String get confirmButton => 'Подтвердить';
+
+  @override
+  String get usernameMismatch => 'Имя пользователя не совпадает. Удаление отменено.';
+
+  @override
+  String get exportSuccess => 'Успешно экспортировано';
+
+  @override
+  String get policiesTitle => 'Политики';
+
+  @override
+  String get reminderScheduled => 'Напоминание успешно запланировано.';
+
+  @override
+  String reminderFailed(String error) {
+    return 'Ссылка добавлена, но напоминание не удалось: $error';
+  }
+
+  @override
+  String addLinkFailed(String error) {
+    return 'Не удалось добавить ссылку: $error';
+  }
+
+  @override
+  String errorLoadingDeleted(String error) {
+    return 'Ошибка при загрузке удаленных ссылок: $error';
+  }
+
+  @override
+  String errorLoadingDocument(String error) {
+    return 'Ошибка при загрузке документа: $error';
+  }
+
+  @override
+  String selectFolder(String folderName) {
+    return 'Выбрать $folderName';
+  }
+
+  @override
+  String get thisFolder => 'эту папку';
+
+  @override
+  String get whatsNewSubtitle => 'ReadItLater теперь Pile - то же приложение, новое имя.';
+
+  @override
+  String get whatsNewHeader => 'Что нового:';
+
+  @override
+  String get whatsNewPoint1 => '- Новое имя, новая иконка';
+
+  @override
+  String get whatsNewPoint2 => '- Исправления и улучшения';
+
+  @override
+  String get whatsNewFooter => 'Спасибо, что вы с нами с самого начала.';
 }
